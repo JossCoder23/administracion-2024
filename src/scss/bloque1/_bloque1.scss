@@ -79,7 +79,7 @@
   top: 1rem;
   left: 1.5rem;
   background: center/contain no-repeat url(https://lp.cayetano.edu.pe/wp-content/uploads/2024/05/upch_blanco_end-scaled.webp);
-  @include m.phone_380 {
+  @include m.phone_360 {
     top: 2rem;
   }
   @include m.phone_414 {
@@ -210,7 +210,7 @@
   position: absolute;
   width: 30rem;
   // background-color: yellow;
-  @include m.phone_360 {
+  @include m.phone_414 {
     top: 25rem;
   }
   @include m.tablet_760 {

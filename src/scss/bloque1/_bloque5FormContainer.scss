@@ -3,10 +3,13 @@
 
 .form__container {
     // background-color: green;
-    height: 95%;
+    height: 90%;
     width: 95%;
     // border-radius: 1rem;
     margin: 2rem 0;
+    @include m.desktop_1920 {
+        height: 92%;
+    }
 }
 
 .form__title {
@@ -192,6 +195,9 @@
     // background-color: purple;
     display: grid;
     grid-template-columns: 5% 95%;
+    @include m.desktop_1920 {
+        margin-bottom: 2.3rem;
+    }
     input {
         color: black;
         @include m.tablet_768 {
